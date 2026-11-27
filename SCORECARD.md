@@ -36,7 +36,7 @@ Leave cells blank where a task doesn't cover a criterion.
 | T05 | | | | | | | | | | |
 | T06 | | | | | | | | | | |
 | T07 | | | | | | | | | | |
-| T08 | | | | | | | | | | |
+| T08 | | | | | | 5 (logic fixture) | | | 0.0522 | Found five of five intentionally seeded logic defects, no false positives or style noise. Local branch review. Security-specific recall and precision were not measured by this fixture. |
 | T09 | | | | | | | | | | |
 | T10 | | | | | | | | | | |
 | T11 | | | | | | | 4 | 5 | 0.0115 | Headless script exited 0 without a TTY and returned JSON. Missing key exited 1. Two live invocations, scoped credential revoked after use. Shell licence setup added friction. |
