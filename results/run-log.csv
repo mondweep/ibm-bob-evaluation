@@ -4,3 +4,4 @@ date,task,surface,mode,bobcoins_before,bobcoins_after,bobcoins_used,minutes,inte
 2026-11-27,T02,IDE,Ask,,,0.0560,,2,pass,"Public COBOL sample with comments stripped; compared output to the original source."
 2026-11-27,T11,Shell,Headless,,,0.005784,0.043,0,pass,"Direct verification with explicit acceptance of Shell licence; JSON changelog; session duration."
 2026-11-27,T11,Shell,Headless,,,0.005756,0.047,0,pass,"Script verified without TTY; missing key exits 1; temporary key revoked; session duration."
+2026-11-27,T03,IDE,Plan to Agent,,,1.1425,,,pass,"Functional acceptance passed. GitHub issue 1 required a transcript of its requirements; corrected plan before coding. Live local HTTP check and full Jest suite passed. /review issue coverage not verified."
