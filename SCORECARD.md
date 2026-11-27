@@ -29,10 +29,10 @@ Leave cells blank where a task doesn't cover a criterion.
 
 | Task | C1 | C2 | C3 | C4 | C5 | C6 | C8 | C9 | Bobcoins | Evidence |
 |---|---|---|---|---|---|---|---|---|---|---|
-| T01 | | | | | | | | | | |
+| T01 | | | 5 | | | | 3 | | 0.2035 | C3: Verified the modules, article flow, Prisma relationships and JWT logic against source. Minor inaccuracies were the root-route omission, static mount description and omitted nullable markers. C8: First answer took about 3m10s, including 13 manual read approvals. |
 | T02 | | | | | | | | | | |
 | T03 | | | | | | | | | | |
-| T04 | | | | | | | | | | |
+| T04 | 5 | 5 | | | | | | | 0.3290 | C1: Seeded assertion failed before the run and all six suites passed afterwards, with tests unchanged. C2: One-line fix restored the existing pagination convention. |
 | T05 | | | | | | | | | | |
 | T06 | | | | | | | | | | |
 | T07 | | | | | | | | | | |
@@ -41,6 +41,8 @@ Leave cells blank where a task doesn't cover a criterion.
 | T10 | | | | | | | | | | |
 | T11 | | | | | | | | | | |
 | T12 | | | | | | | | | | |
+
+Calibration used 0.5325 Bobcoins across two successful tasks (0.2662 per task using the unrounded charges). This is within the 6 Bobcoin phase budget and below the 3 Bobcoins per task threshold for dropping later tasks.
 
 ## Gates
 
@@ -60,7 +62,7 @@ Leave cells blank where a task doesn't cover a criterion.
 | C4 Autonomy | 10 | | | |
 | C5 Safety | 15 | | | |
 | C6 Review | 10 | | | |
-| C7 Bobcoin efficiency | 10 | | | |
+| C7 Bobcoin efficiency | 10 | 5 (calibration only) | 0.50 (provisional) | |
 | C8 Developer experience | 5 | | | |
 | C9 Integration | 5 | | | |
 | **Total** | **100** | | **/ 5** | |
