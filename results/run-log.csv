@@ -1,3 +1,6 @@
 date,task,surface,mode,bobcoins_before,bobcoins_after,bobcoins_used,minutes,interventions,outcome,notes
 2026-11-27,T01,IDE,Ask,50.0000,49.7965,0.2035,3.5,13,pass,"Remaining inferred from exact task charge. First answer about 3m10s. Public snapshot 30b68e1. All cited files and functions exist."
 2026-11-27,T04,IDE,Agent,49.7965,49.4675,0.3290,2.3,9,pass,"Remaining inferred from exact task charge. Fixture 5ff9b70. Bob changed one production line and left tests unchanged. Full Jest run: 27 passed and 1 existing TODO."
+2026-11-27,T02,IDE,Ask,,,0.0560,,2,pass,"Public COBOL sample with comments stripped; compared output to the original source."
+2026-11-27,T11,Shell,Headless,,,0.005784,0.043,0,pass,"Direct verification with explicit acceptance of Shell licence; JSON changelog; session duration."
+2026-11-27,T11,Shell,Headless,,,0.005756,0.047,0,pass,"Script verified without TTY; missing key exits 1; temporary key revoked; session duration."
