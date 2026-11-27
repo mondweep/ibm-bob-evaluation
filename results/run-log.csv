@@ -5,3 +5,4 @@ date,task,surface,mode,bobcoins_before,bobcoins_after,bobcoins_used,minutes,inte
 2026-11-27,T11,Shell,Headless,,,0.005784,0.043,0,pass,"Direct verification with explicit acceptance of Shell licence; JSON changelog; session duration."
 2026-11-27,T11,Shell,Headless,,,0.005756,0.047,0,pass,"Script verified without TTY; missing key exits 1; temporary key revoked; session duration."
 2026-11-27,T03,IDE,Plan to Agent,,,1.1425,,,pass,"Functional acceptance passed. GitHub issue 1 required a transcript of its requirements; corrected plan before coding. Live local HTTP check and full Jest suite passed. /review issue coverage not verified."
+2026-11-27,T08,IDE,Review,,,0.0522,0.97,1,pass,"Logic-only replacement fixture. Five true findings, zero false positives. Review against local baseline; security scan and remote PR coverage unverified."
