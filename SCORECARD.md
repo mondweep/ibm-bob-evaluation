@@ -30,7 +30,7 @@ Leave cells blank where a task doesn't cover a criterion.
 | Task | C1 | C2 | C3 | C4 | C5 | C6 | C8 | C9 | Bobcoins | Evidence |
 |---|---|---|---|---|---|---|---|---|---|---|
 | T01 | | | 5 | | | | 3 | | 0.2035 | C3: Verified the modules, article flow, Prisma relationships and JWT logic against source. Minor inaccuracies were the root-route omission, static mount description and omitted nullable markers. C8: First answer took about 3m10s, including 13 manual read approvals. |
-| T02 | | | | | | | | | | |
+| T02 | | | 5 | | | | | | 0.0560 | Compared the Markdown spec to source and original comments. Correctly described inputs, report, Virginia count, strict over-limit comparison, 20-entry cap and hard abort with code 1000. |
 | T03 | | | | | | | | | | |
 | T04 | 5 | 5 | | | | | | | 0.3290 | C1: Seeded assertion failed before the run and all six suites passed afterwards, with tests unchanged. C2: One-line fix restored the existing pagination convention. |
 | T05 | | | | | | | | | | |
@@ -39,7 +39,7 @@ Leave cells blank where a task doesn't cover a criterion.
 | T08 | | | | | | | | | | |
 | T09 | | | | | | | | | | |
 | T10 | | | | | | | | | | |
-| T11 | | | | | | | | | | |
+| T11 | | | | | | | 4 | 5 | 0.0115 | Headless script exited 0 without a TTY and returned JSON. Missing key exited 1. Two live invocations, scoped credential revoked after use. Shell licence setup added friction. |
 | T12 | | | | | | | | | | |
 
 Calibration used 0.5325 Bobcoins across two successful tasks (0.2662 per task using the unrounded charges). This is within the 6 Bobcoin phase budget and below the 3 Bobcoins per task threshold for dropping later tasks.
