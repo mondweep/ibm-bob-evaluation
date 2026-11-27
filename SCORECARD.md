@@ -31,7 +31,7 @@ Leave cells blank where a task doesn't cover a criterion.
 |---|---|---|---|---|---|---|---|---|---|---|
 | T01 | | | 5 | | | | 3 | | 0.2035 | C3: Verified the modules, article flow, Prisma relationships and JWT logic against source. Minor inaccuracies were the root-route omission, static mount description and omitted nullable markers. C8: First answer took about 3m10s, including 13 manual read approvals. |
 | T02 | | | 5 | | | | | | 0.0560 | Compared the Markdown spec to source and original comments. Correctly described inputs, report, Virginia count, strict over-limit comparison, 20-entry cap and hard abort with code 1000. |
-| T03 | | | | | | | | | | |
+| T03 | 4 | 5 | | 2 | | | | | 1.1425 | C1: Implemented corrected plan; API returned 0, 1, 2 and all 30 tests passed with one prior TODO. C2: Narrow mapper and test change. C4: Needed manual approvals, pasted issue text, and correction of the proposed one-minute minimum. IDE /review opened a panel; automated issue coverage not demonstrated. |
 | T04 | 5 | 5 | | | | | | | 0.3290 | C1: Seeded assertion failed before the run and all six suites passed afterwards, with tests unchanged. C2: One-line fix restored the existing pagination convention. |
 | T05 | | | | | | | | | | |
 | T06 | | | | | | | | | | |
