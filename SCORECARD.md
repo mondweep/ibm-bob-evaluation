@@ -33,7 +33,7 @@ Leave cells blank where a task doesn't cover a criterion.
 | T02 | | | 5 | | | | | | 0.0560 | Compared the Markdown spec to source and original comments. Correctly described inputs, report, Virginia count, strict over-limit comparison, 20-entry cap and hard abort with code 1000. |
 | T03 | 4 | 5 | | 2 | | | | | 1.1425 | C1: Implemented corrected plan; API returned 0, 1, 2 and all 30 tests passed with one prior TODO. C2: Narrow mapper and test change. C4: Needed manual approvals, pasted issue text, and correction of the proposed one-minute minimum. IDE /review opened a panel; automated issue coverage not demonstrated. |
 | T04 | 5 | 5 | | | | | | | 0.3290 | C1: Seeded assertion failed before the run and all six suites passed afterwards, with tests unchanged. C2: One-line fix restored the existing pagination convention. |
-| T05 | | | | | | | | | | |
+| T05 | 4 | 4 | | | | | | | | Initial test suite hit a Prisma mock TypeScript error. Bob revised the mocks and independent full-suite verification showed 99.14% line coverage, up from 23.07%, with 73 passing tests and one existing TODO. Production code was untouched. |
 | T06 | | | | | | | | | | |
 | T07 | | | | | | | | | | |
 | T08 | | | | | | 5 (logic fixture) | | | 0.0522 | Found five of five intentionally seeded logic defects, no false positives or style noise. Local branch review. Security-specific recall and precision were not measured by this fixture. |
